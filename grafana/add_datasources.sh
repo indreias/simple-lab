@@ -1,19 +1,16 @@
 #!/bin/bash
 #set -e
 
-# ADD INFLUXDB DATASOURCE
+# ADD INFLUXDB K6 DATASOURCE
 curl -s -H "Content-Type: application/json" \
     -XPOST http://admin:nimda321@localhost:3000/api/datasources \
     -d @- <<EOF
 {
-    "name": "influxdb",
+    "name": "influxdb-k6",
     "type": "influxdb",
     "access": "proxy",
     "url": "http://influxdb:8086",
-    "database": "telegraf",
-    "user":"telegraf",
-    "password":"nimda321",
-    "basicAuth":false
+    "database": "k6",
 }
 EOF
 
