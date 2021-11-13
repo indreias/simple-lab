@@ -29,7 +29,7 @@ services:
       INFLUXDB_HTTP_LOG_ENABLED: "false"
 
   grafana:
-      image: grafana/latest-ubuntu
+      image: grafana/grafana:latest-ubuntu
       container_name: grafana
       ports:
         - "3001:3000"
