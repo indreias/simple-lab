@@ -10,7 +10,7 @@ curl -s -H "Content-Type: application/json" \
     "type": "influxdb",
     "access": "proxy",
     "url": "http://influxdb:8086",
-    "database": "k6",
+    "database": "k6"
 }
 EOF
 
