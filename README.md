@@ -4,7 +4,6 @@ This repository contains easily deployable monitoring solution which uses:
  - Grafana (frontend for monitoring + alerts)
  - Prometheus (monitoring solution pulling metrics from exporter)
  - Node Exporter for Prometheus (metrics exporter-exposer for Prometheus)
- - Telegraf (monitoring agent)
  - InfluxDB (persistent timeseries storage)
  - cAdvisor (containers monitoring)
  - alertmanager (alerting)
