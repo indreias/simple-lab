@@ -71,7 +71,7 @@ monitoring/monitoring_*_dir
 **/*.bak_remove
 **/*.wrapped
 data
-#additional_node_exporters.json
+additional_node_exporters.json
 
 # Keys
 **/*.pem
