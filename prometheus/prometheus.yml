@@ -32,6 +32,9 @@ scrape_configs:
     scrape_interval: "15s"
     static_configs:
       - targets: ['node_exporter:9100']
+    file_sd_configs:
+      - files:
+        - 'additional_node_exporters.json'
   - job_name: 'cadvisor'
     scrape_interval: "15s"
     static_configs:

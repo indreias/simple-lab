@@ -1,0 +1,11 @@
+[
+  {
+    "labels": {
+        "job": "node"
+    },
+    "targets": [
+        "perftests-001:9100",
+        "perftests-002:9100"
+    ]
+  }
+]
